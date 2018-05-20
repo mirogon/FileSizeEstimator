@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 {
 	if(argc <= 1)
 	{
-		std::cout<<"Please input a the file path"<<std::endl;
+		std::cout<<"Please input a file path"<<std::endl;
 		return 0;
 	}
 
