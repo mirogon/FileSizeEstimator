@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[])
 {
-	if(argc <= 0)
+	if(argc <= 1)
 	{
 		std::cout<<"Please input a the file path"<<std::endl;
 		return 0;
@@ -14,7 +14,6 @@ int main(int argc, char* argv[])
 
 	char c;
 
-	
 	unsigned long num_c = 0;
 	
 	while(is.get(c))
