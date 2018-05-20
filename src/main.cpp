@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
 	char c;
 
 	
-	unsigned int num_c = 0;
+	unsigned long num_c = 0;
 	
 	while(is.get(c))
 	{
